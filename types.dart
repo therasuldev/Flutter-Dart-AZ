@@ -1,11 +1,11 @@
 void main() {
   // int, String, double, dynamic, final, const, var, bool
-  // Natural ədədləri göstərmək üçün
 
   // boolean tipi
   bool _bool = true;
   bool _bool1 = false;
 
+  // Natural ədədləri göstərmək üçün
   int a = 5;
 
   String b = "My name ";
