@@ -4,26 +4,28 @@ import 'switch_case.dart';
 
 void main() {
   // int, String, double, dynamic, final, const, var, bool
-  // Natural ədədləri göstərmək üçün
 
   // boolean tipi
   bool _bool = true;
   bool _bool1 = false;
 
+  // Natural ədədləri göstərmək üçün
   int a = 5;
 
+  // String tanımlama
   String b = "My name ";
   String c = 'string';
 
+  // double tanımlama
   double eded = -5.5;
   double eded1 = 5.5;
 
-  // Data hansı tipdə gələcək bəlli deyil . Hər tipdə dəyər ala bilər
+  // dynamic -  Data hansı tipdə gələcək bəlli deyil . Hər tipdə dəyər ala bilər
   dynamic data = "cscs";
   data = 4343;
   data = 545.454;
 
-  // var özü avtomatik tipi təyin edir və sonra həmin tipdən dəyər alacaq
+  // var - özü avtomatik tipi təyin edir və sonra həmin tipdən dəyər alacaq
   var result = '242';
   result = "cnis";
 
