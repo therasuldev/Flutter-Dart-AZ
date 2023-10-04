@@ -1,3 +1,7 @@
+// ignore_for_file: unused_local_variable
+
+import 'switch_case.dart';
+
 void main() {
   // int, String, double, dynamic, final, const, var, bool
   // Natural ədədləri göstərmək üçün
@@ -68,31 +72,4 @@ void main() {
   print(k is int); // k-nın (yəni dəyişənin) həmin tipdə olub olmadığını yoxlamaq üçün istifadə olunur. true false qaytarır
 
   gunler(8);
-}
-
-gunler(int days) {
-  switch (days) {
-    case 1:
-      return "1 ci gunder";
-    case 2:
-      print('heftenin 2 ci gunudur');
-      break;
-    case 3:
-      print('heftenin 3 ci gunudur');
-      break;
-    case 4:
-      print('heftenin 4 ci gunudur');
-      break;
-    case 5:
-      print('heftenin 5 ci gunudur');
-      break;
-    case 6:
-      print('heftenin 6 ci gunudur');
-      break;
-    case 7:
-      print('heftenin 7 ci gunudur');
-      break;
-    default:
-      print('bele bir gun movcud deyil');
-  }
 }
