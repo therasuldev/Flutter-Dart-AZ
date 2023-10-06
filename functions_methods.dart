@@ -8,7 +8,7 @@ void main() {
 
 void myFunc() {
   print('funksiya');
-  return; // bos,return prosesi dayandirmaq ucun istifade olunur;
+  return; // boş return prosesi dayandirmaq ucun istifade olunur;
 }
 
 String myFunc1() {
