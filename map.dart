@@ -7,7 +7,6 @@ void main() {
   _map.addAll({"d": 4, "e": 5}); // birden cox elementi elave etmek ucun
   _map["f"] = 6; // bir element elave etmek ucun
   print(_map);
-
   //_map.clear(); // map-i silmek icin
   //print(_map);
 
