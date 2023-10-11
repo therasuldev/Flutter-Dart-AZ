@@ -38,6 +38,21 @@
  * * və daha sonra for(var i in list) istifadə etməklə age-ləri cüt ədəd olan userlərin sayını print eləyən kod yazmaq.
  */
 
+/**
+ *? 1. List<String> list = ['Flutter', 'dart', 'ALI','nurane']; listindən  
+ *     böyük hərflə başlayan elementləri çap etmək;
+ *? 2. List<int>[1,2,3,4,5,6] listindən cüt elementlərdən ibarət 
+ *     listi qaytaracaq extension yazmaq.(metod adı evenElements() olsun)
+ *? 3. printType() extensionu yazmaq hansı ki bütün tiplər üçün keçərli olacaq 
+ *     və həmin dəyişənin tipini print eləsin 
+ *? 4. verilən dəyişənin double tipində olub olmadığını yoxlayan (true false) 
+ *     qaytaracaq extension yazmaq.(is istifadə etmək)
+ *? 5. Universities adlı enum yazmaq, içinə bdu,aztu,bmu,bsu propertilərini yazmaq və 
+ *     enum-a String final name propertisini yazmaq. Sonra Universities.bdu.name kimi çap etmək.
+ *? 6. Student class-ı yaratmaq. içində fullName, university propertiləri olsun. 
+ *     Sonra main() içində Student obyektini yaradıb propertiləri çap etmək.
+*/
+
 void main() {
   // List<int> elements = [1, 2, 4, 5, 6, 7, 8];
   // final evenElements = evenNumbers(elements: elements);

@@ -36,61 +36,62 @@ void main() {
 
 // ==========enum
 
-// enum PhoneModel {
-//   apple,
-//   samsung,
-//   redmi,
-//   honor,
-// }
+enum PhoneModel {
+  apple,
+  samsung,
+  redmi,
+  honor,
+}
 
-// example(PhoneModel model) {
-//   switch (model) {
-//     case PhoneModel.apple:
-//       print('Iphone 15');
-//       break;
-//     case PhoneModel.samsung:
-//       print('samsung galaxy');
-//       break;
-//     case PhoneModel.redmi:
-//       print('redmi not 8');
-//       break;
-//     default:
-//       print("honor");
-//       break;
-//   }
-// }
+example(PhoneModel model) {
+  switch (model) {
+    case PhoneModel.apple:
+      print('Iphone 15');
+      break;
+    case PhoneModel.samsung:
+      print('samsung galaxy');
+      break;
+    case PhoneModel.redmi:
+      print('redmi not 8');
+      break;
+    default:
+      print("honor");
+      break;
+  }
+}
 
-// example3() {
-//   duration: DurationEnum.low.duration;
-//   duration: DurationEnum.high.duration;
-// }
+example3() {
+  duration:
+  DurationEnum.low.duration;
+  duration:
+  DurationEnum.high.duration;
+}
 
-// enum DurationEnum {
-//   low(300),
-//   high(700);
+enum DurationEnum {
+  low(300),
+  high(700);
 
-//   final int duration;
-//   const DurationEnum(this.duration);
-// }
+  final int duration;
+  const DurationEnum(this.duration);
+}
 
-// enum MyEnum {
-//   odd,
-//   even;
+enum MyEnum {
+  odd,
+  even;
 
-//   static result(MyEnum myenum) {
-//     switch (myenum) {
-//       case MyEnum.even:
-//         print("value is even");
-//         break;
-//       default:
-//         print("value is odd");
-//         break;
-//     }
-//   }
-// }
+  result() {
+    switch (this) {
+      case MyEnum.even:
+        print("value is even");
+        break;
+      default:
+        print("value is odd");
+        break;
+    }
+  }
+}
 
-// example4() {
-//   MyEnum myenum;
-//   print(MyEnum.result(MyEnum.even));
-// }
-
+example4() {
+  MyEnum even = MyEnum.even;
+  print(even.result());
+}
