@@ -52,23 +52,3 @@
  *? 6. Student class-ı yaratmaq. içində fullName, university propertiləri olsun. 
  *     Sonra main() içində Student obyektini yaradıb propertiləri çap etmək.
 */
-
-void main() {
-  // List<int> elements = [1, 2, 4, 5, 6, 7, 8];
-  // final evenElements = evenNumbers(elements: elements);
-  // print(evenElements);
-
-  //int a = 4;
-
-  // if (a & 1 == 1) {
-  //   print("tekdir");
-  // }
-  // if (a & 1 == 0) {
-  //   print("cutdur");
-  // }
-}
-
-// List<int> evenNumbers({required List<int> elements}) {
-//   final evens = elements.where((element) => element.isEven).toList();
-//   return evens;
-// }

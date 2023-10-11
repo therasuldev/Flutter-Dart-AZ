@@ -110,3 +110,27 @@ class Phone {
 
   int get money => _money;
 }
+
+// --------- **** ----------------
+// class Kisi {
+//   String? _ad;
+
+//   // Setter tanımı
+//   set isim(String? yeniAd) {
+//     if (yeniAd != null && yeniAd.isNotEmpty) {
+//       _ad = yeniAd;
+//     } else {
+//       print('null ola bilmes');
+//     }
+//   }
+
+//   String get ad => _ad ?? '';
+// }
+
+// void main() {
+//   var kisi = Kisi();
+
+//   kisi.isim = null;
+
+//   print(kisi.ad);
+// }
