@@ -52,3 +52,40 @@
  *? 6. Student class-ı yaratmaq. içində fullName, university propertiləri olsun. 
  *     Sonra main() içində Student obyektini yaradıb propertiləri çap etmək.
 */
+
+/**
+*? 1. score dəyişəni olan Game clası yaratmaq.ona cascade operator tətbiq edərək dəyər vermək.
+*? 2. Bu class-da printScore() funksiyasını yaratmaq və cascade operator ilə onu çağırmaq və
+*     verilmiş scoru consola yazdırmaq.
+*? 3. Laptop classı yaratmaq name, model, memory dəyişənləri olsun. 3 dənə named constructor
+*     yaratmaq(bir dəfə name, bir dəfə model və memory adları ilə). sonra memory-yə dəyəri 
+*     class içində özümüz set edək, digərlərini parametr kimi verək.
+*? 4. Phone adında class yaratmaq model propertisi olsun.sonra ona extensiom yazmaq(isValid),
+*     əgər model boş olmazsa, main-də həmin modeli print etmək.
+*? 5. Teacher classı yaratmaq.name,age fieldləri olsun.(_age private olsun) sonra class içində set ilə 
+*     control etmək yəni age mənfi gəldiyi halda mənfi ola bilməz print eləsin və age-i sıfırlasın.
+*     əks halda _age-ə həmin dəyəri set etsin. sonra bu _age get ilə age adıyla digər fayllar üçün 
+*     istifadəyə vermək.
+*? 6. Iterable<int> tipində int-lərdən ibarət silsiləni listə çevirmək.
+*TODO - chatGPT istifadə etmək //!QƏTİ QADAĞANDIR!//
+*TODO - google-də araşdırmaq plusdur.
+*/
+
+/**
+*? 1. score dəyişəni olan Game clası yaratmaq.ona cascade operator tətbiq edərək dəyər vermək.
+*? 2. Bu class-da printScore() funksiyasını yaratmaq və cascade operator ilə onu çağırmaq və
+*     verilmiş scoru consola yazdırmaq.
+*? 3. Laptop classı yaratmaq name, model, memory dəyişənləri olsun. 3 dənə named constructor
+*     yaratmaq(bir dəfə name, bir dəfə model və memory adları ilə). sonra memory-yə dəyəri 
+*     class içində özümüz set edək, digərlərini parametr kimi verək.
+*? 4. Phone adında class yaratmaq model propertisi olsun.sonra ona extensiom yazmaq(isValid),
+*     əgər model boş olmazsa, main-də həmin modeli print etmək.
+*? 5. Teacher classı yaratmaq.name,age fieldləri olsun.(_age private olsun) sonra class içində set ilə 
+*     control etmək yəni age mənfi gəldiyi halda mənfi ola bilməz print eləsin və age-i sıfırlasın.
+*     əks halda _age-ə həmin dəyəri set etsin. sonra bu _age get ilə age adıyla digər fayllar üçün 
+*     istifadəyə vermək.
+*? 6. Dart adlı class yaratmaq. year,author,company propertiləri olsun. keçdiyimiz bütün üsullarla 
+*     cosntructorlar yaratmaq(çöldən dəyəri içəriyə set etmək, qoşa nöqtə, bodysini açaraq ...)
+*     TODO: late istifadə etməyə ehtiyyac yoxdur.
+*? 7. Iki dənə Phone classını bir-birinə vurmaq(field olaraq price olsun).
+ */
