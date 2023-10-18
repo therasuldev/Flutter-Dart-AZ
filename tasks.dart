@@ -89,3 +89,20 @@
 *     TODO: late istifadə etməyə ehtiyyac yoxdur.
 *? 7. Iki dənə Phone classını bir-birinə vurmaq(field olaraq price olsun).
  */
+
+/**
+ *? 1. private Firend adında mixin yaratmaq name = Flutter olsun və help() deyə 
+       abstract funksiya olsun. Yeni Student clası ilə işlətmək. $name helps me çap etməli
+ *? 2. Future<void> tipində funksiya yazmaq hansı ki çalışdırdıqdan 3 saniyə sonra `flutter` çap etsin.
+       (async, await, Future mövzusunu araşdırmaq). 
+ *? 3. Bir list yaradin 5 dənə int elementi olan. Listi unmodifiable eləyin(yəni list üzərində heç bir 
+       əməliyyat aparılmasın) (2 üsulla)
+ *? 4. extension yazın hansı ki, stringi Set kimi geri qaytarsın.
+ *? 5. Home classını yaradın dynamic name-i olan. set ilə controll edin name-i -- əgər name int olarsa 
+       name int olmaz yazsın, əks halda this.name-ə dəyərini versin. 
+ *? 6. 5-ci taskın davamı kimi həmin class içində boş construktor yaratmaq və içində this.name==null olarsa,
+       null olmaz çap etsin.
+ *? 7. class yaratmaq Woman adında. name, surname, profession dəyişənlərinə malik olsun. Bu class üçün fromJson()
+       factory-ni yazmaq. həmçinin toJson metodunu yazmaq. sonra main() içində Map yaradıb (bu dəyərlərə malik) həmin 
+       map-ı Woman modelinə çevirmək.
+ */
