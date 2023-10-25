@@ -106,3 +106,36 @@
        factory-ni yazmaq. həmçinin toJson metodunu yazmaq. sonra main() içində Map yaradıb (bu dəyərlərə malik) həmin 
        map-ı Woman modelinə çevirmək.
  */
+
+// * =================================================================================================
+
+/**
+ *? 1. List<Map<String,dynamic>> tipində 3 elementdən ibarət list yaratmaq, map a və b keylərindən ibarət olsun.
+ *     Sonra for ilə həmin elementlərin 'a' keylərinin dəyərlərini çap eləsin.
+ *? 2. Car classı yaratmaq name parametri olsun. Sonra WithFuel və Electric mixinlərini yaratmaq və bu class ilə işlətmək.
+ *     Mixinlərin içində adına uyğun funksiyalar yazmaq və $name works with {mixin adına uyğun} çap eləsin.
+ *? 3. Animal abstract class və Dog və Cat classlarını yaratmaq.abstract class içində makeSound() abtract funksiya yaratmaq
+ *     və digər classlarda classlara uyğun override eləmək. Sonra main xaricində sound() deyə funksiya yazmaq parametr kimi 
+ *     abstract class alsın. sonra digər classları yaradaraq bu funksiyadan istifadə edərək makeSound() funksiyasını çağırmaq.
+ *? 4. MAX adında class yaratmaq. içində getMax() funksiyasini yaratmaq hansı ki,  
+ *     List<int> list = [14, 99, 5, 101, 65, 43, 43, 2, 2, 2, 100, 52];
+ *     bu listin max ədədini tapsın. sonra maində obyekti yaradıb funks-nı çağırmaq.
+ *? 5. Child adında class yaratmaq(field name və surname), sonra Child.name və Child.surname named constructorlarını yaratmaq.
+ *? 6. Mac adında class yaratmaq  price fieldi olsun.Sonra iki car objectini muqayise etmek (== olub olmadigini).
+ *? 7. Iki ədəddən ibarət listdən  boyük ədədi qaytaran extension yazmaq. (dart:math kitabxanasının max funks.-ı istifadə edərək).
+ *? 8. Dartda Anonim funksiya nədir araşdırmaq.(parametr necə verilir və parametrə qiymət necə verilir).
+ *? 9. int? first və second parametrləri alan funksiya yaratmaq. parametr verilməzsə default olaraq 10 dəyərinə malik olsun.
+ *? 10. enum yazmaq Model adlı. main içində switch case ilə print(ok) yazdırmaq.(enum içinə istədiyiniz fieldləri yazarsız)
+ *? 11. Me adında class yaratmaq. age, height fieldləri olsun. fromJson(factory) , toString, copyWith metodlarını tətbiq etmək.
+ */
+
+/** 
+*? 1. class yaratmaq Woman adında. name, surname, profession dəyişənlərinə malik olsun. Bu class üçün fromJson()
+      factory-ni yazmaq. həmçinin toJson metodunu yazmaq. sonra main() içində Map yaradıb (bu dəyərlərə malik) həmin 
+      map-ı Woman modelinə çevirmək.
+*? 2. Man adında class yaratmaq.age,height fieldləri olsun. fromJson(factory),toString,copyWith metodlarını tətbiq etmək.
+*? 3. 5 saniyə sonra completed sözünü çap edəcək anonim fuksiya yazmaq.
+*? 4. {geriyə integer qaytaran anonim funksiya alan} getAge funksiyasını yazmaq.(getAge də geriyə int qaytarır), 
+*     main-də onu istifadə etmək.
+*? 5. int-ə extension yazmaq hansı ki, geriyə bu int-in özünü qaytaran anonim funksiya qaytarsın.
+*/
