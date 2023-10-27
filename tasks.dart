@@ -139,3 +139,15 @@
 *     main-də onu istifadə etmək.
 *? 5. int-ə extension yazmaq hansı ki, geriyə bu int-in özünü qaytaran anonim funksiya qaytarsın.
 */
+
+/**
+ * 1. 5 elementdən ibarət map yaratmaq və onun value-larını list kimi çap etmək.
+ * 2. Constant adlı class yaradıb 2 dənə static dəyişən yaratmaq və maində çağırmaq. 
+ * 3. var və dynamic ilə final və const fərqini yada salmaq. 
+ * 4. List yaratmaq 10 elementdən ibarət.for ilə listi gəzmək, cüt elementləri atlamaq. 
+ * 5. abstract Model class yaratmaq String getName(String name) funks-sı olan.Phone və Car classlarını 
+ *    onda extends edərək yaratmaq.
+ * 6. Phone classı yaratmaq name və price olsun. fromJson , toJson və copyWith metodlarını yazmaq.
+ * 7. Geriyə string qaytaran anonim funksiya yazmaq.
+ * 8. Stringin ilk 3 hərfini ayırıb götürən extension yazmaq.(hazır method var String üçün)
+ */
